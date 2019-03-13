@@ -15,7 +15,7 @@ test("return side B of triangle", () => {
 test("return side C of triangle", () => {
   expect(sideC( 0.1, 3.8,4.4, 0.4)).toBe(5.48);
 });
-test("return perimeter triangle", () => {
+test("return perimeter triangle", () => { // is an error need to be revised
   expect(
     perimeter(
       sideA(4.4, 0.4, 3.6, 2.0),
@@ -24,7 +24,7 @@ test("return perimeter triangle", () => {
     )
   ).toBe(5.61);
 });
-test("return area triangle", () => {
+test("return area triangle", () => {   //is an error need to be revised
   expect(
     area(
       sideA(4.4, 0.4, 3.6, 2.0),
