@@ -1,5 +1,5 @@
-import { radTodeg } from "./31";
+import { tC } from "./31";
 
-test(" convert radius in angle ", () => {
-  expect(radTodeg(1.25)).toBe(71.62);
+test("retur", () => {
+  expect(tC(44.29)).toBe(6.83);
 });

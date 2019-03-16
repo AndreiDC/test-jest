@@ -1,9 +1,10 @@
-/*The angle value α in radians (0 ≤ α < 2·π) is given. Convert this value into degrees.
-Take into account that 180° = π radians. 
-Use 3.14 for a value of π.*/
+/* A Fahrenheit temperature T is given.
+ Convert it into a centigrade temperature. 
+ The centigrade temperature TC and the Fahrenheit temperature TF are connected as:
+TC = (TF − 32)·5/9. */
 
-export function radTodeg(a: number): number {
-  let r: number;
-  r = (a * 180) / Math.PI;
-  return parseFloat(r.toFixed(2));
+export function tC(tF: number) {
+  let t: number;
+  t = (tF - 32) * (5 / 9);
+  return parseFloat(t.toFixed(2));
 }
