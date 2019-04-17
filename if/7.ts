@@ -3,9 +3,9 @@
 export default function theSmaller(a, b: number) {
   let small: number;
   if (a < b) {
-    small = a;
+    small = 1;
   } else {
-    small = b;
+    small = 2;
   }
   return small;
 }
